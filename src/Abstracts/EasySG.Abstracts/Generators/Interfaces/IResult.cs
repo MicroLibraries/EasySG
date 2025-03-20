@@ -1,6 +1,6 @@
 ﻿using EasySG.Abstracts.Models.CSharp;
 
-namespace EasySG.Abstracts.Generators.State
+namespace EasySG.Abstracts.Generators.Interfaces
 {
     public interface IResult
     {

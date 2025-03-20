@@ -1,6 +1,8 @@
-﻿namespace EasySG.Abstracts
+﻿using Microsoft.CodeAnalysis;
+
+namespace EasySG.Abstracts
 {
-    public interface IGeneratorApp
+    public interface IGeneratorApp : IIncrementalGenerator
     {
     }
 }

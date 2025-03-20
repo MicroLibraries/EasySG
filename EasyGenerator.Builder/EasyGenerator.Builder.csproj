@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\src\Abstracts\EasySG.Abstracts\EasySG.Abstracts.csproj" />
+  </ItemGroup>
+
 </Project>

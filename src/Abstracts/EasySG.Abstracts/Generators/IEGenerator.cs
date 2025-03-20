@@ -3,7 +3,7 @@ using EasySG.Abstracts.Models.CSharp;
 
 namespace EasySG.Abstracts.Generators
 {
-    public interface IEasyGenerator
+    public interface IEGenerator
     {
         void Generate(CSharpClass input, GeneratorState state);
     }
